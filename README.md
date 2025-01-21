@@ -7,8 +7,8 @@ This project addresses the challenge of predicting customer churn in the telecom
 ## Motivation
 Customer churn prediction is a critical problem for any subscription-based business. In this project, I aim to:
 
-- Apply machine learning techniques to a real-world problem.
-- Develop skills in handling imbalanced datasets and model evaluation. This project forms a foundation for tackling other business-critical machine learning problems and implementing data-driven strategies.
+-- Apply machine learning techniques to a real-world problem.
+-- Develop skills in handling imbalanced datasets and model evaluation. This project forms a foundation for tackling other business-critical machine learning problems and implementing data-driven strategies.
 
 
 Used Technologies
