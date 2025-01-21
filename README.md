@@ -29,6 +29,31 @@ Customer churn prediction is a critical problem for any subscription-based busin
   - Subscription Details: `Contract`, `PaymentMethod`, `MonthlyCharges`, etc.
   - Target Variable: `Churn`
 
+- **Data Preprocessing**:
+   - Removed unnecessary columns (e.g., geographical information, customer ID).
+   - Handled missing values and ensured data consistency.
+   - Encoded categorical features using Label Encoding.
+   - Balanced the dataset using SMOTE to address class imbalance.
+   - Visualized key trends in customer churn.
+   - Correlation analysis to identify significant features.
+
+- **Model Building**:
+  - Implemented Logistic Regression and Random Forest classifiers.
+  - Trained the models using the balanced dataset.
+  - Used hyperparameter tuning (RandomizedSearchCV) to optimize model performance.
+    
+- **Evaluation**:
+  - Evaluated models using metrics like accuracy, precision, recall, and F1-score.
+  - Identified the best-performing model based on evaluation metrics.
+
+- **Results**:
+The final model achieved the following metrics on the test dataset:
+
+   - Accuracy: `0.82`
+   - Precision: `0.84`
+   - Recall: `0.81`
+   - F1-Score:`0.82`
+
 ## Project Workflow
  
 
