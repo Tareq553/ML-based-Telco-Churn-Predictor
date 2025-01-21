@@ -1,1 +1,1 @@
-# Telco-Churn-Predictor
+# Telco Churn Predictor
