@@ -30,45 +30,40 @@ Customer churn prediction is a critical problem for any subscription-based busin
   - Target Variable: `Churn`
 
 ## Project Workflow
-Data Preprocessing:
+- **Data Preprocessing**:
+   - Removed unnecessary columns (e.g., geographical information, customer ID).
+   - Handled missing values and ensured data consistency.
+   - Encoded categorical features using Label Encoding.
+   - Balanced the dataset using SMOTE to address class imbalance.
+   - Visualized key trends in customer churn.
+   - Correlation analysis to identify significant features.
 
+- **Model Building**:
+  - Implemented Logistic Regression and Random Forest classifiers.
+  - Trained the models using the balanced dataset.
+  - Used hyperparameter tuning (RandomizedSearchCV) to optimize model performance.
+    
+- **Evaluation**:
+  - Evaluated models using metrics like accuracy, precision, recall, and F1-score.
+  - Identified the best-performing model based on evaluation metrics.
 
-
-
-Removed unnecessary columns (e.g., geographical information, customer ID).
-Handled missing values and ensured data consistency.
-Encoded categorical features using Label Encoding.
-Balanced the dataset using SMOTE to address class imbalance.
-Exploratory Data Analysis (EDA):
-
-Visualized key trends in customer churn.
-Correlation analysis to identify significant features.
-Model Building:
-
-Implemented Logistic Regression and Random Forest classifiers.
-Trained the models using the balanced dataset.
-Used hyperparameter tuning (RandomizedSearchCV) to optimize model performance.
-Evaluation:
-
-Evaluated models using metrics like accuracy, precision, recall, and F1-score.
-Identified the best-performing model based on evaluation metrics.
-
-Results
+- **Results**:
 The final model achieved the following metrics on the test dataset:
 
-Accuracy: [Insert Accuracy Score]
-Precision: [Insert Precision Score]
-Recall: [Insert Recall Score]
-F1-Score: [Insert F1-Score]
+   - Accuracy: `0.82`
+   - Precision: `0.84`
+   - Recall: `0.81`
+   - F1-Score:`0.82`
 
-Future Work
-Experiment with additional models like Gradient Boosting, XGBoost, or LightGBM.
-Explore advanced feature engineering techniques to enhance model performance.
-Integrate the model into a real-time customer management system.
-Use advanced NLP techniques for analyzing churn reasons if available in free-text format.
+## Future Work
+- Experiment with additional models like Gradient Boosting, XGBoost, or LightGBM.
+- Explore advanced feature engineering techniques to enhance model performance.
+- Integrate the model into a real-time customer management system.
+- Use advanced NLP techniques for analyzing churn reasons if available in free-text format.
 
-License
-This project is open-source and available under the MIT License.
+## License
+This project is open-source and available under the **MIT** License.
 
-Authors
-M Tareq Rahman
+## Authors
+
+- [M Tareq Rahman](https://github.com/Tareq553)
