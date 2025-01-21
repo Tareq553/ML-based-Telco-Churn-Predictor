@@ -33,7 +33,7 @@ Customer churn prediction is a critical problem for any subscription-based busin
  
 
                                           +---------------------------+
-                                          |    **Data Preprocessing**      |
+                                          |   **Data Preprocessing**   |
                                           +---------------------------+
                                           | 1. Remove Unnecessary      |
                                           |    Columns                 |
@@ -47,7 +47,7 @@ Customer churn prediction is a critical problem for any subscription-based busin
                                                       |
                                                       v
                                           +---------------------------+
-                                          |    **Model Building**          |
+                                          |    **Model Building**      |
                                           +---------------------------+
                                           | 1. Logistic Regression     |
                                           | 2. Random Forest Classifier|
@@ -58,7 +58,7 @@ Customer churn prediction is a critical problem for any subscription-based busin
                                                       |
                                                       v
                                           +---------------------------+
-                                          |    **Evaluation**              |
+                                          |       **Evaluation**       |
                                           +---------------------------+
                                           | 1. Evaluate with Accuracy, |
                                           |    Precision, Recall, F1-  |
@@ -69,7 +69,7 @@ Customer churn prediction is a critical problem for any subscription-based busin
                                                       |
                                                       v
                                           +---------------------------+
-                                          |         **Results**            |
+                                          |        **Results**         |
                                           +---------------------------+
                                           | - Accuracy: 0.82           |
                                           | - Precision: 0.84          |
