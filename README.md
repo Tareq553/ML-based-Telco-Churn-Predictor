@@ -19,20 +19,15 @@ Customer churn prediction is a critical problem for any subscription-based busin
   - Scikit-learn: Model training and evaluation
   - Seaborn, Matplotlib: Data visualization
   - Imbalanced-learn: Handling imbalanced datasets with SMOTE
+    
 
-
-## Used Technologies
-The following tools and libraries were used in this project:
-
-- Python: Programming language for implementation.
-- Pandas and NumPy: For data manipulation and analysis.
-- Matplotlib and Seaborn: For data visualization and EDA (Exploratory Data Analysis).
-- Scikit-learn: For preprocessing, building machine learning models, and evaluating their performance.
-- Imbalanced-learn (SMOTE): To handle class imbalance by oversampling the minority class.
-- Jupyter Notebook: For an interactive and organized development environment.
-
-## Dataset Description
-A fictional telco company that provided home phone and Internet services to 7043 customers in California in Q3. The data is collected from [Kaggle](https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset).
+## 📊 Dataset Details
+- **Source**: [Telco customer churn: IBM dataset](https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset)
+- **Size**: 7,043 rows, 33 columns
+- **Features**:
+  - Demographic Information: `gender`, `SeniorCitizen`, `Partner`, etc.
+  - Subscription Details: `Contract`, `PaymentMethod`, `MonthlyCharges`, etc.
+  - Target Variable: `Churn`
 
 ## Project Workflow
 Data Preprocessing:
