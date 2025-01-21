@@ -21,7 +21,7 @@ Customer churn prediction is a critical problem for any subscription-based busin
   - Imbalanced-learn: Handling imbalanced datasets with SMOTE
     
 
-## 📊 Dataset Details
+## Dataset Details
 - **Source**: [Telco customer churn: IBM dataset](https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset)
 - **Size**: 7,043 rows, 33 columns
 - **Features**:
