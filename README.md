@@ -4,7 +4,7 @@
 This project addresses the challenge of predicting customer churn in the telecommunications industry. The goal is to analyze customer behavior and predict whether a customer will churn (leave the service) based on historical data. The project uses a machine learning pipeline to preprocess the data, handle imbalanced datasets, and train models to classify customers into "churn" and "not churn" categories. The insights gained from this project can help telecom companies take proactive measures to retain customers, improve customer satisfaction, and enhance business profitability.
 
 
-Motivation
+## Motivation
 Customer churn prediction is a critical problem for any subscription-based business. In this project, I aim to:
 
 - Apply machine learning techniques to a real-world problem.
