@@ -29,6 +29,9 @@ Customer churn prediction is a critical problem for any subscription-based busin
   - Subscription Details: `Contract`, `PaymentMethod`, `MonthlyCharges`, etc.
   - Target Variable: `Churn`
 
+
+## Project Workflow
+
 - **Data Preprocessing**:
    - Removed unnecessary columns (e.g., geographical information, customer ID).
    - Handled missing values and ensured data consistency.
@@ -54,7 +57,7 @@ The final model achieved the following metrics on the test dataset:
    - Recall: `0.81`
    - F1-Score:`0.82`
 
-## Project Workflow
+
  
 
                                       +---------------------------+
