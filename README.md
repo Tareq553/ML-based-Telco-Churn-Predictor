@@ -11,21 +11,30 @@ Customer churn prediction is a critical problem for any subscription-based busin
 - Develop skills in handling imbalanced datasets and model evaluation. This project forms a foundation for tackling other business-critical machine learning problems and implementing data-driven strategies.
 
 
-Used Technologies
+## Used Technologies
 The following tools and libraries were used in this project:
 
-Python: Programming language for implementation.
-Pandas and NumPy: For data manipulation and analysis.
-Matplotlib and Seaborn: For data visualization and EDA (Exploratory Data Analysis).
-Scikit-learn: For preprocessing, building machine learning models, and evaluating their performance.
-Imbalanced-learn (SMOTE): To handle class imbalance by oversampling the minority class.
-Jupyter Notebook: For an interactive and organized development environment.
+- Python: Programming language for implementation.
+- Pandas and NumPy: For data manipulation and analysis.
+- Matplotlib and Seaborn: For data visualization and EDA (Exploratory Data Analysis).
+- Scikit-learn: For preprocessing, building machine learning models, and evaluating their performance.
+- Imbalanced-learn (SMOTE): To handle class imbalance by oversampling the minority class.
+- Jupyter Notebook: For an interactive and organized development environment.
 
-Dataset Description
-The dataset used contains information about telecom customers, including demographic details, subscription plans, and customer activity. It includes the following key features:
+## Dataset Description
+A fictional telco company that provided home phone and Internet services to 7043 customers in California in Q3. The data is collected from [Kaggle](https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset).
 
-Project Workflow
+## Project Workflow
 Data Preprocessing:
+
+
+## 🔧 Technologies Used
+- **Programming Language**: Python
+- **Libraries**:
+  - Pandas, NumPy: Data manipulation and analysis
+  - Scikit-learn: Model training and evaluation
+  - Seaborn, Matplotlib: Data visualization
+  - Imbalanced-learn: Handling imbalanced datasets with SMOTE
 
 Removed unnecessary columns (e.g., geographical information, customer ID).
 Handled missing values and ensured data consistency.
