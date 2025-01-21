@@ -54,6 +54,18 @@ The final model achieved the following metrics on the test dataset:
    - Precision: `0.84`
    - Recall: `0.81`
    - F1-Score:`0.82`
+ 
+| **Data Preprocessing**          | **Model Building**            | **Evaluation**                | **Results**                   |
+|---------------------------------|-------------------------------|-------------------------------|-------------------------------|
+| 1. Remove Unnecessary Columns   | 1. Logistic Regression        | 1. Evaluate with Accuracy,    | 1. Final Model Metrics        |
+| 2. Handle Missing Values        | 2. Random Forest Classifier   |    Precision, Recall,         |    **Accuracy**: 0.82         |
+| 3. Encode Categorical Features  | 3. Train Models               |    F1-Score                   |    **Precision**: 0.84        |
+| 4. Balance Dataset (SMOTE)      | 4. Hyperparameter Tuning      | 2. Identify Best Performing   |    **Recall**: 0.81           |
+| 5. Visualize Key Trends         |    (RandomizedSearchCV)       |    Model                      |    **F1-Score**: 0.82         |
+| 6. Correlation Analysis         |                               |                               |                               |
+
+
+  
 
 ## Future Work
 - Experiment with additional models like Gradient Boosting, XGBoost, or LightGBM.
