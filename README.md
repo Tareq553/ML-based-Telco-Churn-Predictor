@@ -41,9 +41,9 @@ Customer churn prediction is a critical problem for any subscription-based busin
    - Correlation analysis to identify significant features.
 
 - **Model Building**:
-  - Implemented Logistic Regression and Random Forest classifiers.
+  - Implemented **Logistic Regression** and **Random Forest** classifiers.
   - Trained the models using the balanced dataset.
-  - Used hyperparameter tuning (RandomizedSearchCV) to optimize model performance.
+  - Used hyperparameter tuning (**RandomizedSearchCV**) to optimize model performance.
     
 - **Evaluation**:
   - Evaluated models using metrics like accuracy, precision, recall, and F1-score.
