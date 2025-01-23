@@ -1,7 +1,7 @@
 # Telco Churn Predictor
 
 ## Project Overview
-This project addresses the challenge of predicting customer churn in the telecommunications industry. The goal is to analyze customer behavior and predict whether a customer will churn (leave the service) based on historical data. The project uses a **machine learning** pipeline to preprocess the data, handle imbalanced datasets, and train models to classify customers into "churn" and "not churn" categories. The insights gained from this project can help telecom companies take proactive measures to retain customers, improve customer satisfaction, and enhance business profitability.
+This is a **Machine learning-based project** focused on addressing the challenge of customer churn prediction in the telecommunications industry. The objective is to analyze customer behavior and predict whether a customer is likely to churn (discontinue the service) based on historical data. The project involves building a robust machine learning pipeline to preprocess data, handle imbalanced datasets, and train classification models to categorize customers into "churn" and "not churn." Insights derived from this project will enable telecom companies to implement proactive retention strategies, enhance customer satisfaction, and drive business profitability.
 
 
 ## Motivation
