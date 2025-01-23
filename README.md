@@ -7,7 +7,7 @@ This is a **Machine learning-based project** focused on addressing the challenge
 ## Motivation
 Customer churn prediction is a critical problem for any subscription-based business. In this project, I aim to:
 
-- Apply **machine learning techniques** to a real-world problem.
+- Apply **Machine learning techniques** to a real-world problem.
 - Develop skills in handling imbalanced datasets and model evaluation. This project forms a foundation for tackling other business-critical machine learning problems and implementing data-driven strategies.
 
 
